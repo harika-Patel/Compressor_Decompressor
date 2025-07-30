@@ -25,10 +25,11 @@ This minimizes the total size of the encoded data.
 ---
 
 ##  Project Structure
-HuffmanCompressor.java // Compresses input files using Huffman encoding
-HuffmanDecompressor.java // Decompresses files encoded by the compressor
-HuffmanNode.java // Serializable node class used in the Huffman tree
-HuffmanUI.java // GUI using Java Swing for user-friendly interaction
+HuffmanCompressor.java      // Compression logic using Huffman encoding  
+HuffmanDecompressor.java    // Decompression logic using stored Huffman tree  
+HuffmanNode.java            // Serializable tree node used in encoding/decoding  
+HuffmanUI.java           // Swing-based GUI for file selection and actions  
+
 
 ##  Run Options
 
